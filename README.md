@@ -27,8 +27,8 @@ allprojects {
 }
 
 dependencies {
-    debugImplementation 'com.github.DingProg.NetworkCaptureSelf:library:v1.0.0'
-    releaseImplementation 'com.github.DingProg.NetworkCaptureSelf:library_no_op:v1.0.0'
+    debugImplementation 'com.github.yanpengqing.NetworkCaptureSelf:library:v1.0.0'
+    releaseImplementation 'com.github.yanpengqing.NetworkCaptureSelf:library_no_op:v1.0.0'
 }
 ```
 
