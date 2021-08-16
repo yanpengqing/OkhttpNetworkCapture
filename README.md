@@ -17,7 +17,7 @@
 
 
 # 快速接入
-[![](https://jitpack.io/v/DingProg/NetworkCaptureSelf.svg)](https://jitpack.io/#DingProg/NetworkCaptureSelf)
+[![](https://jitpack.io/v/yanpengqing/OkhttpNetworkCapture.svg)](https://jitpack.io/#yanpengqing/OkhttpNetworkCapture)
 
 ```gradle
 allprojects {
@@ -27,8 +27,8 @@ allprojects {
 }
 
 dependencies {
-    debugImplementation 'com.github.DingProg.NetworkCaptureSelf:library:v1.0.1'
-    releaseImplementation 'com.github.DingProg.NetworkCaptureSelf:library_no_op:v1.0.1'
+    debugImplementation 'com.github.DingProg.NetworkCaptureSelf:library:v1.0.0'
+    releaseImplementation 'com.github.DingProg.NetworkCaptureSelf:library_no_op:v1.0.0'
 }
 ```
 
@@ -43,7 +43,4 @@ new OkHttpClient.Builder()
 注意接入时  debugImplementation 和 releaseImplementation区别，releaseImplementation中不包含任何其他代码
 
 如果您的项目中还有buildType 是develop，那么developImplementation
-请依赖 'com.github.DingProg.NetworkCaptureSelf:library:v1.0.1'
-
-# More
-关于更多，请查看 [Blog](https://blog.csdn.net/dingdegao/article/details/103351590)
+请依赖 'com.github.DingProg.NetworkCaptureSelf:library:v1.0.0'
