@@ -2,7 +2,6 @@
 一个基于OKHttp的实用抓包小工具
 
 # 工具界面截图
-![](https://github.com/DingProg/NetworkCaptureSelf/blob/master/screen/lanuch.png)
 ![](https://github.com/DingProg/NetworkCaptureSelf/blob/master/screen/main.png)
 
 
@@ -27,8 +26,8 @@ allprojects {
 }
 
 dependencies {
-    debugImplementation 'com.github.yanpengqing.NetworkCaptureSelf:library:v1.0.0'
-    releaseImplementation 'com.github.yanpengqing.NetworkCaptureSelf:library_no_op:v1.0.0'
+    debugImplementation com.github.yanpengqing.OkhttpNetworkCapture:library:v1.0.0'
+    releaseImplementation 'com.github.yanpengqing.OkhttpNetworkCapture:library_no_op:v1.0.0'
 }
 ```
 
